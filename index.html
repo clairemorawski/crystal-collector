@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+    <link rel="stylesheet" type="text/css" href="Assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudfare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Claire's Crystal Collector</h1>
+    </div>
+    <div class="instructions">
+        <h2>How to Play</h2>
+        <li> You will be given a random number at the start of the game.</li>
+        <li> There are 4 crystals below. By clicking on a crystal you
+            will add a specific amount of points to your total score.</li>
+        <li> You win the game by matching your total score to the random number.</li>
+        <li> You lose the game if your total score goes above the random number.</li>
+        <li> The value of each crystal is hidden from you until you click on it.</li>
+        <li> Each time when the game begins, the game will change the values of each crystal.</li>
+    </div>
+
+    <div class="row text-left">
+        <div class="col-sm-9">
+            <h2>Number To Match:
+                <span id="scoreToMatch"></span>
+            </h2>
+        </div>
+    </div>
+
+    <div class="row text-center">
+        <div class="col-sm-3">
+            <h2>Wins:
+                <span id="numberWins"></span>
+                </br>
+                Losses:
+                <span id="numberLosses"></span>
+            </h2>
+        </div>
+    </div>
+
+    <div class="row text-right">
+        <div class="col-sm-12">
+            <h2>Your Total Score Is:
+                <span id="totalScore"></span>
+            </h2>
+        </div>
+    </div>
+
+    <div class="row text-center">
+        <div class="col-sm-3">
+            <img src="https://luckyretail.com/Uploadfile/201710311/026107/026107-3.jpg" class="crystalImage" id="one"
+                alt="Red Crystal" width="200" height="200">
+            <img src="https://cdn.shopify.com/s/files/1/0912/7764/articles/blue-crystals-vector-clipart_96a61667-1b3b-41c4-8caa-f7634ae878fc_2048x.png?v=1536798805"
+                class="crystalImage" id="two" alt="Blue Crystal" width="200" height="200">
+            <img src="https://www.crystalandglassbeads.com/9180-thickbox_default/light-grey-opal-swarovski-crystals-flatbacks-ss16.jpg"
+                class="crystalImage" id="three" alt="Purple Crystal" width="200" height="200">
+            <img src="https://vignette.wikia.nocookie.net/marvel-contestofchampions/images/5/50/Crystal_tech.png/revision/latest?cb=20151122000303"
+                class="crystalImage" id="four" alt="Gold Crystal" width="200" height="200">
+        </div>
+    </div>
+
+    <script type="text/javascript" src="Assets/javascript/game.js"></script>
+</body>
+
+</html>

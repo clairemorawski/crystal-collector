@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+div{
+	background-color: #e0e0eb;
+	margin: 10px;
+	width: 15%
+}
+div{
+	border: solid 2px #e0e0eb;
+	padding: 10px;
+}
+h1, h3, span{
+    font-family: 'Lato', serif;
+    font-size: 75px;
+    background-color: #e0e0eb;
+    font-weight: bold;
+	text-align: center;
+}
+h2{
+    font-family: 'Lato', serif;
+    font-size: 12px;
+    background-color: #e0e0eb;
+    font-weight: bold;
+	text-align: left;
+}
+li{
+    font-family: 'Lato', serif;
+    font-size: 12px;
+    background-color: #e0e0eb;
+    font-weight: lighter;
+	text-align: left;
+}
+ol{
+	list-style: decimal inside; 
+}
+ul {
+	list-style: disc inside;
+	text-indent: 20px;
+}
+
+div.header, div.gems{
+	background-color: #e0e0eb;
+}
+div.header, div.instructions{
+	width: 50%;
+}
+.numberToMatch, .winsAndLosses{
+	float: left;
+	width: 15%;
+	height: 60px;
+}
+.userTotal{
+	width: 15%;
+	height: 60px;
+}
+.gems{
+	clear: both;
+}
+.gemImage{
+	height: 60px;
+	margin: 10px;
+}
+/* IDs */
+#one{
+	color: red;
+}
+#two{
+	color: blue;
+}
+#three{
+	color: lavender;
+}
+#gold{
+	color: gold;
+}
+
+ body{
+    background-image: url("https://thatoregonlife.com/wp-content/uploads/2016/09/crystalcave.jpg")}
+
+
+
+
+
+
+
+
+
